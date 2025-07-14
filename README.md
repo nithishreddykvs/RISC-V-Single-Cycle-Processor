@@ -97,7 +97,7 @@ gtkwave dump.vcd
 ```
 riscv-single-cycle/
 ├── src/
-│   ├── alu.v
+│   ├── ALU.v
 │   ├── control_unit.v
 │   ├── data_memory.v
 │   ├── instruction_memory.v
@@ -105,11 +105,10 @@ riscv-single-cycle/
 │   ├── muxes.v
 │   ├── reg_file.v
 │   ├── pc.v
-│   ├── alu_decoder.v
-│   └── riscv_datapath.v        # Top-level module
+│   └── top.v        # Top-level module
 │
 ├── testbench/
-│   └── riscv_tb.v
+│   └── top_tb.v
 │
 ├── docs/
 │   ├── architecture_diagram.png
@@ -147,12 +146,12 @@ This project was synthesized using [Vivado] for resource utilization checks.
 
 ## 👨‍💻 Author
 
-**Nithish Reddy**  
+**NITHISH REDDY KVS**  
 📍 3rd Year ECE @ College of Engineering, Guindy  
 💻 Passionate about **Digital Design**, **VLSI**, **RTL-GDS** flow.  
 💬 Open to collaborate & build processors from scratch.
 
-🧠 Partner on this project: **Caviar** 🐟
+🧠 Partner on this project: **KAVYA** 
 
 ---
 
@@ -171,7 +170,6 @@ I'm open to:
 
 1. *Digital Design and Computer Architecture* by Harris & Harris  
 2. *The RISC-V Instruction Set Manual: Volume I (Unprivileged ISA)*  
-3. Reference document: `RISCV pipelined.pdf`
 
 ---
 
@@ -179,12 +177,3 @@ I'm open to:
 
 This project is licensed under the **MIT License**.
 ```
-
----
-
-Let me know if you'd like:
-- Auto-generated badges (build passing, waveform generated, etc.)
-- A GitHub Pages site for this
-- Or even a `.vscode` launch config for Verilog simulation
-
-You're all set to make an impressive repo! 🚀
