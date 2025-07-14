@@ -108,6 +108,7 @@ riscv-single-cycle/
 │   └── top.v        # Top-level module
 │
 ├── testbench/
+│   ├── imem.mem
 │   └── top_tb.v
 │
 ├── docs/
