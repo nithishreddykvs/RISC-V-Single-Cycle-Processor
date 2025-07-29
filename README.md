@@ -71,8 +71,9 @@ The processor supports the **RV32I** instruction set:
 
 ## 🖼️ Architecture Diagram
 
-> Check out [`docs/architecture_diagram.png`](docs/architecture_diagram.png)  
-This shows the complete datapath and control signals for the processor.
+![Architecture Diagram](docs/architecture_diagram.png)
+
+> This shows the complete datapath and control signals for the processor.
 
 ---
 
